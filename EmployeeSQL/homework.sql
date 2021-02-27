@@ -39,3 +39,18 @@ join departments as d
 	on de.dept_no=d.dept_no
 where d.dept_name = 'Sales'
 ;
+
+
+select e.emp_no, e.last_name, e.first_name, d.dept_name
+from employees as e
+join dept_emp as de
+	on e.emp_no=de.emp_no
+join departments as d
+	on de.dept_no=d.dept_no
+where d.dept_name = 'Sales' or d.dept_name = 'Development'
+;
+
+select e.last_name, count(*) as "Number_of_EE"
+from employees as e 
+group by e.last_name
+;
