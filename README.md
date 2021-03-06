@@ -3,13 +3,13 @@
 As a recent employee with Pewlett Hackard, my first major task was a research project on employees from the 1980s and 1990s. The project included both Data Engineering and Data Analysis.
 
 ### I. Data Engineering
-In order to perform this challenge, you first have to run the **schema.sql** code. This was created with PostgreSQL version 11. All the csv files are in the Resources directory.
+In order to perform this challenge, you first have to run the [schema.sql](https://github.com/Corters22/sql-challenge/blob/main/EmployeeSQL/schema.sql) code. This was created with PostgreSQL version 11. All the csv files are in the Resources directory.
 Below is the Entity Relationship Diagram or ERD for the tables created within the schema.
 
 ![ERD](https://github.com/Corters22/sql-challenge/blob/main/EmployeeSQL/ERD.png)
 
 ### II. Data Analysis
-The following questions were answered using the **analysis.sql** file with screenshots of the sample data ouput.
+The following questions were answered using the [analysis.sql](https://github.com/Corters22/sql-challenge/blob/main/EmployeeSQL/analysis.sql) file with screenshots of the sample data ouput.
 #### 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 
 ![Question one screenshot](https://github.com/Corters22/sql-challenge/blob/main/Images/Q1.JPG)
@@ -46,6 +46,9 @@ The following questions were answered using the **analysis.sql** file with scree
 As I examined the data, I was overcome with a creeping suspicion that the dataset was fake. I surmised that my boss handed me spurious data in order to test the data engineering skills of a new employee. To confirm my hunch, I decided to take the following steps to generate a visualization of the data, to show my boss:
 
 #### 1. Import the SQL database into Pandas.
+
+The analysis code is in [Bonus.ipynb](https://github.com/Corters22/sql-challenge/blob/main/EmployeeSQL/Bonus.ipynb).
+
 #### 2. Create a histogram to visualize the most common salary ranges for employees.
 
 ![histogram](https://github.com/Corters22/sql-challenge/blob/main/Images/salaryhist.png)
