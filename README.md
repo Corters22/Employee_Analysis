@@ -4,6 +4,9 @@ As a recent employee with Pewlett Hackard, my first major task was a research pr
 
 ### I. Data Engineering
 In order to perform this challenge, you first have to run the **schema.sql** code. This was created with PostgreSQL version 11. All the csv files are in the Resources directory.
+Below is the Entity Relationship Diagram or ERD for the tables created within the schema.
+
+![ERD](https://github.com/Corters22/sql-challenge/blob/main/EmployeeSQL/ERD.png)
 
 ### II. Data Analysis
 The following questions were answered using the **analysis.sql** file with screenshots of the sample data ouput.
@@ -38,3 +41,19 @@ The following questions were answered using the **analysis.sql** file with scree
 #### 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
 ![Question eight screenshot](https://github.com/Corters22/sql-challenge/blob/main/Images/Q8.JPG)
+
+### Bonus!
+As I examined the data, I was overcome with a creeping suspicion that the dataset was fake. I surmised that my boss handed me spurious data in order to test the data engineering skills of a new employee. To confirm my hunch, I decided to take the following steps to generate a visualization of the data, to show my boss:
+
+#### 1. Import the SQL database into Pandas.
+#### 2. Create a histogram to visualize the most common salary ranges for employees.
+
+![histogram](https://github.com/Corters22/sql-challenge/blob/main/Images/salaryhist.png)
+
+#### 3. Create a bar chart of average salary by title.
+
+![bar chart](https://github.com/Corters22/sql-challenge/blob/main/Images/salarybar.png)
+
+#### Evidence in hand, I went to my boss's office and presented the visualizations. With a sly grin, my boss thanked me for my work. On the way out of the office, I heard the words, "Search your ID number." My employee ID number is 499942.
+
+![employee screenshot](https://github.com/Corters22/sql-challenge/blob/main/Images/employeescreenshot.JPG)
