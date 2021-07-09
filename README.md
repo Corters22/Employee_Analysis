@@ -1,4 +1,4 @@
-# SQL Challenge - Employee Database: A Mystery in Two Parts
+# Employee Database: A Mystery in Two Parts
 
 As a recent employee with Pewlett Hackard, my first major task was a research project on employees from the 1980s and 1990s. The project included both Data Engineering and Data Analysis.
 
